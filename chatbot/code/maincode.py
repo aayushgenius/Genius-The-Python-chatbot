@@ -1,10 +1,13 @@
-#Python chatbot 
+#Python chatbot lol
 print("This chatbot is only compatible with correct spelling and only lowercase. Say stop to make the chatbot stop. Chat with it below")
 lol = 1
 text = str(input())
 while lol == 1:
     if text == "hi":
         print("hello")
+        text = str(input())
+    elif text == "hello":
+        print("hi")
         text = str(input())
     elif text == "stop":
         break
