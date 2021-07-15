@@ -1,2 +1,2 @@
 # py-chatbot
-A simple python chatbot
+A simple python chatbot (Currently under development)
