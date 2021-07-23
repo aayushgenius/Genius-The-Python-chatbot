@@ -1,7 +1,7 @@
 #Python chatbot lol
 from time import sleep
 import time
-print("This chatbot is only compatible with correct spelling and only lowercase. Say stop to make the chatbot stop. Say hi or hello to start the conversation. ")
+print("This chatbot is only compatible with correct spelling and only lowercase. Say stop to make the chatbot stop. Say hi or hello to start the conversation.")
 lol = 1
 text = str(input())
 while lol == 1:
@@ -82,7 +82,7 @@ while lol == 1:
         print("What did the shark say when he ate the clownfish")
         sleep(0.75)
         print("This tastes funny")
-        print("That all I've got for you today. Say time to see the time right now in your place.")
+        print("That all I've got for you today. You can visit my brother project AlphaQuad at https://github.com/QuantzLab/AlphaQuad. ")
         text = str(input())
     elif text == "stop":
         break
