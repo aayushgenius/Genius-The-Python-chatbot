@@ -14,7 +14,7 @@ while lol == 1:
         print("I am a chatbot which is made by aayushgenius. My name is genius. Call my name. ")
         text = str(input())
     elif text == "genius":
-        print("Hello there, My name is genius. What would you like to tell me? Too see local time say time. If you want me to guess your name say guess name. You can also say guess colour and guess gem")
+        print("Hello there, My name is genius. What would you like to tell me? If you want me to guess your name say guess name. You can also say guess colour and guess gem")
         text = str(input())
     elif text == "guess name":
         print("I am not the best at guessing names but, is your name John, maybe Michelle. If I am wrong then say 'guess name wrong'. Otherwise guess my favourite colour by saying guess colour")
