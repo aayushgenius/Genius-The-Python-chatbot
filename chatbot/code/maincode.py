@@ -61,7 +61,7 @@ while lol == 1:
             text = str(input())
         else: 
             print("Oh no. You are wrong. It is breath. Say answer riddle 3 for my last riddle. ")
-         text = str(input())
+            text = str(input())
     elif text == "answer riddle 3":
         print("In for another riddle. I must warn you. It is the hardest")
         print("I have billions of eyes, yet I live in darkness. I have millions of ears, yet only four lobes. I have no muscle, yet I rule two hemispheres. What am I? Hint: I am made of 2 words")
@@ -84,10 +84,6 @@ while lol == 1:
         print("This tastes funny")
         print("That all I've got for you today. Say time to see the time right now in your place.")
         text = str(input())
-    elif text == "time":
-        print("This is in BETA and may glitch sometimes although it usually works. ")
-        current_time = time.localtime()
-        print(current_time)
     elif text == "stop":
         break
     else:
