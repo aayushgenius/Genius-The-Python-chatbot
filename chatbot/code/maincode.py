@@ -46,8 +46,8 @@ while lol == 1:
         print("I know a few good ones  for them say answer riddle 2 or 3 for more. For now let me ask you this one.")
         print("What is so fragile that saying it breaks it.")
         riddle1 = str(input("Answer the first riddle here"))
-        if riddle1 == "clock":
-            print("Congratulations you got the correct answer it is a clock. Say answer riddle 2 for more. If you wanna hear a joke then say joke")
+        if riddle1 == "silence":
+            print("Congratulations you got the correct answer it silence. Say answer riddle 2 for more. If you wanna hear a joke then say joke")
             text = str(input())
         else:
             print("Sorry, the answer is clock. Say answer riddle 2 to see if you can do better next time. Otherwise say joke for some funny ones. ")
