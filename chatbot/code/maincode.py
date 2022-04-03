@@ -6,7 +6,7 @@ lol = 1
 text = str(input())
 while lol == 1:
     if text == "hi":
-        print("hello. My name is genius. Call my name.")
+        print("hello. My name is genius. Call my name to continue the chatbot.")
         text = str(input())
     elif text == "hello":
         print("hi, type 'who' to know who I am")
@@ -82,7 +82,7 @@ while lol == 1:
         print("What did the shark say when he ate the clownfish")
         sleep(0.75)
         print("This tastes funny")
-        print("That all I've got for you today. You can visit my brother project AlphaQuad at https://github.com/QuantzLab/AlphaQuad. ")
+        print("That all I've got for you today. You can visit my brother project AlphaQuad at https://github.com/QuantzLab/AlphaQuad. Or, you can alternatively put some other answers to see what you get. ")
         text = str(input())
     elif text == "stop":
         break
