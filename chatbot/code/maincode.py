@@ -4,14 +4,17 @@ import time
 print("This chatbot is only compatible with correct spelling and only lowercase. Say stop to make the chatbot stop. Say hi or hello to start the conversation.")
 lol = 1
 text = str(input())
+# keep it in lower case
+text = text.lower()
+
 while lol == 1:
-    if text == "hi":
+    if text.startswith("hi"): # incase they something like hi, genius
         print("hello. My name is genius. Call my name to continue the chatbot.")
         text = str(input())
-    elif text == "hello":
+    elif text.startswith("hello"):
         print("hi, type 'who' to know who I am")
     elif text == "who":
-        print("I am a chatbot which is made by aayushgenius. My name is genius. Call my name. ")
+        print("I am a chatbot which is made by aayushgenius. My name is genius.\nPlease call me my name.")
         text = str(input())
     elif text == "genius":
         print("Hello there, My name is genius. What would you like to tell me? If you want me to guess your name say guess name. You can also say guess colour and guess gem")
@@ -24,7 +27,7 @@ while lol == 1:
         name = str(input("By the way, what is your name?"))
         print(str(name) + " is your name. I was about to guess that. By the way would you like to guess my favourite colour. Say 'guess colour' to do so.")
         text = str(input())
-    elif text == "guess colour":
+    elif text == "guess colour" or text == "guess color":
         print("So you want to guess my favourite colour. Lets see how good you do.")
         colour = str(input("Write my favourite colour here."))
         if colour == "green":
